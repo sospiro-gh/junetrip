@@ -103,13 +103,13 @@ ul li
 }
 
 /*    */
-.hilite1
+.highlight1
 {
   background-color: rgba(235,125,125,0.8);
   font-color: rgba(85,204,238,1);
 }
 
-.hilite2
+ul.highlight2 li span
 {
   background-color: rgba(255,255,255,0.6);
   font-color: rgba(0,0,0,1);
