@@ -1,0 +1,224 @@
+html,
+body
+{
+  text-size-adjust: none;
+  -webkit-text-size-adjust: none;
+  -moz-text-size-adjust: none;
+  -ms-text-size-adjust: none;
+}
+
+header,
+main,
+footer
+{
+  font-size: 2rem;
+  margin: 0 auto;
+}
+
+header
+{
+  border-top: 40px #4f70ad solid;
+  padding: 50px 50px 0;
+}
+
+main
+{
+  padding: 0 50px 0;
+  max-width: 1280px;
+}
+
+.inner_wrapper
+{
+  margin: 0 auto;
+  max-width: 1280px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer
+{
+  color: #fff;
+  background-color: #4f70ad;
+  padding: 50px;
+}
+
+address
+{
+  font-style: normal;
+}
+
+div#explanation p
+{
+  margin: 20px 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* h1 */
+
+h1
+{
+  font-size: 2.3rem;
+  padding: 0.5rem;
+  margin: 3rem 0 2rem;
+  background-color: #c5dfa5;
+  border-top: 9px #008742 dotted;
+  border-bottom: 9px #008742 dotted;
+}
+
+h1 img
+{
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1024px;
+}
+
+/* h2 */
+
+h2
+{
+  font-size: 2.3rem;
+  padding: 0.5rem;
+  margin: 3rem 0 2rem;
+  border-top: 5px #aaa dotted;
+  border-bottom: 5px #aaa dotted;
+}
+
+footer h2
+{
+  width: 30%;
+  border: none;
+  padding-right: 25px;
+}
+
+/* h3 */
+
+h3
+{
+  font-size: 2.1rem;
+  padding: 0.1rem;
+  margin: 2rem 0 1rem;
+  border-bottom: 1px #bbb solid;
+}
+
+/* ul */
+
+ul#companies
+{
+  display: flex;
+	flex-wrap: wrap;
+}
+
+ul#companies li
+{
+	width: 33%;
+	list-style: none;
+}
+
+/* table */
+
+tbody
+{
+	-webkit-text-size-adjust: 100%;
+}
+
+table
+{
+	border-spacing: 0;
+	box-sizing: border-box;
+	width: 100%;
+	border-collapse: collapse;
+	border-top: 1px #bbb solid;
+	border-left: none;
+}
+
+table th,
+table td
+{
+	text-align: left;
+	padding: 1rem 1rem;
+	border-bottom: 1px #bbb solid;
+	border-right: none;
+}
+
+table thead th
+{
+}
+
+table th
+{
+  width: 6em;
+}
+
+table td
+{
+}
+
+table td *
+{
+	margin: 0;
+}
+
+/* about-project */
+
+#about-project
+{
+	display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#mozuyan
+{
+	width: 40%;
+	max-width: 400px;
+}
+
+#about-project
+{
+	display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#presenters img
+{
+	width: 70%;
+	max-width: 250px;
+}
+
+#presenters img#arpak
+{
+	width: 80%;
+	max-width: 350px;
+}
+
+#presenters ul
+{
+	font-size: 1.2rem;
+	line-height: 3;
+}
+
+/* a */
+
+footer a
+{
+	color: #fff;
+}
+
+a:hover
+{
+	text-decoration: none;
+}
+
+/* em */
+
+em
+{
+	color: #d53454;
+	font-style: normal;
+}
+
