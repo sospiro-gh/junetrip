@@ -10,6 +10,7 @@ body
 
 body
 {
+  /*GitHubはルート相対パスはダメ*/
   background-image: url("images/banner.jpg");
   background-size: cover;
   background-position: center;
@@ -48,9 +49,8 @@ main
 
 footer
 {
-  color: #fff;
-  background-color: #4f70ad;
-  padding: 50px;
+  background-color: rgba(255,255,255,0.6);
+  padding: 150px;
 }
 
 address
