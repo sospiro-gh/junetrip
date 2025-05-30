@@ -5,11 +5,16 @@ body
   -webkit-text-size-adjust: none;
   -moz-text-size-adjust: none;
   -ms-text-size-adjust: none;
+  height:100%;
 }
 
-
-body {
-  background-color: lightyellow;
+body
+{
+  background-image: url("/images/banner.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: repeat;
+  margin: 0
 }
 
 header,
@@ -53,15 +58,6 @@ address
   font-style: normal;
 }
 
-div#explanation p
-{
-  margin: 20px 0;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
 /* h1 */
 
 h1
@@ -69,16 +65,9 @@ h1
   font-size: 2.3rem;
   padding: 0.5rem;
   margin: 3rem 0 2rem;
-  background-color: #c5dfa5;
-  border-top: 9px #008742 dotted;
-  border-bottom: 9px #008742 dotted;
-}
-
-h1 img
-{
-  margin: 0 auto;
-  width: 100%;
-  max-width: 1024px;
+  background-color: rgba(85,204,238,1);
+  border-top: 9px #eecc55 dotted;
+  border-bottom: 9px #eecc55 dotted;
 }
 
 /* h2 */
@@ -88,15 +77,9 @@ h2
   font-size: 2.3rem;
   padding: 0.5rem;
   margin: 3rem 0 2rem;
-  border-top: 5px #aaa dotted;
-  border-bottom: 5px #aaa dotted;
-}
-
-footer h2
-{
-  width: 30%;
-  border: none;
-  padding-right: 25px;
+  background-color: rgba(85,204,238,0.8);
+  border-top: 5px #eecc55 dotted;
+  border-bottom: 5px #eecc55 dotted;
 }
 
 /* h3 */
@@ -106,21 +89,30 @@ h3
   font-size: 2.1rem;
   padding: 0.1rem;
   margin: 2rem 0 1rem;
-  border-bottom: 1px #bbb solid;
+  background-color: rgba(85,204,238,0.6);
+  border-top: 3px #eecc55 dotted;
+  border-bottom: 3px #eecc55 dotted;
 }
 
 /* ul */
 
-ul#companies
+ul li
 {
-  display: flex;
-	flex-wrap: wrap;
+  width:100%;
+  list-style: none;
 }
 
-ul#companies li
+/*    */
+.hilite1
 {
-	width: 33%;
-	list-style: none;
+  background-color: rgba(235,125,125,0.8);
+  font-color: rgba(85,204,238,1);
+}
+
+.hilite2
+{
+  background-color: rgba(255,255,255,0.6);
+  font-color: rgba(0,0,0,1);
 }
 
 /* table */
@@ -166,64 +158,3 @@ table td *
 {
 	margin: 0;
 }
-
-/* about-project */
-
-#about-project
-{
-	display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-#mozuyan
-{
-	width: 40%;
-	max-width: 400px;
-}
-
-#about-project
-{
-	display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-#presenters img
-{
-	width: 70%;
-	max-width: 250px;
-}
-
-#presenters img#arpak
-{
-	width: 80%;
-	max-width: 350px;
-}
-
-#presenters ul
-{
-	font-size: 1.2rem;
-	line-height: 3;
-}
-
-/* a */
-
-footer a
-{
-	color: #fff;
-}
-
-a:hover
-{
-	text-decoration: none;
-}
-
-/* em */
-
-em
-{
-	color: #d53454;
-	font-style: normal;
-}
-
