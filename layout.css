@@ -33,6 +33,11 @@ header
   background-position: center;
 }
 
+header p
+{
+  margin:10px 2rem
+}
+
 main
 {
   padding: 0 50px 0;
@@ -95,12 +100,34 @@ h3
   border-bottom: 3px #eecc55 dotted;
 }
 
+/* a */
+
+a:link
+{
+  color:#000000;
+}
+a:visited
+{
+  color:#000000;
+}
+a:hover
+{
+  color:#0000ff;
+}
+
 /* ul */
 
 ul li
 {
   width:100%;
   list-style: none;
+}
+
+ul li ul li
+{
+  margin:0 0 0 2rem;
+  width:100%;
+  list-style:square;
 }
 
 /*    */
