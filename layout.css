@@ -11,12 +11,8 @@ body
 body
 {
   /*GitHubはルート相対パスはダメ*/
-  background-image: url("images/banner2.jpg");
-  background-size: cover;
-  background-position: center;
-  background-repeat: repeat;
-  background-color: rgba(255,255,255,0.4)
-  margin: 0
+  background-color: #acacee;
+  margin: 0;
 }
 
 header,
@@ -30,7 +26,11 @@ footer
 header
 {
   border-top: 40px #4f70ad solid;
-  padding: 50px 50px 0;
+  padding: 200px 0;
+  max-width: 1280px;
+  background-image: url("images/banner2.jpg");
+  background-size: 100% auto;
+  background-position: center;
 }
 
 main
